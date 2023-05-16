@@ -9,6 +9,14 @@ header{
     padding-top: 2em;
 }
 
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
 .barra{
     padding-top: 0.5em;
 }
@@ -41,7 +49,7 @@ header{
 }
 
 .primerBoton{
-    background-color: rgba(37, 37, 153, 0.851);
+    background-color: rgba(13, 13, 157, 0.851);
     color: white;
     border-radius: 1em;
     padding: 0.5em 2em;
@@ -95,13 +103,21 @@ button:hover{
     display: flex;
     justify-content: space-around;
     padding-bottom: 1em;
+    position: relative;
+}
+
+.search{
+    position: absolute;
+    top: 21%;
+    left: 9%; 
+    color: gray;
 }
 
 .input{
     border-radius: 2em;
     padding: 1em 5em;
     color:rgb(77, 179, 179);
-    border: none;
+    border: 0.2em solid gray;
 }   
 
 .estadistica{
@@ -222,7 +238,7 @@ button:hover{
 /* Cuarta seccion */
 
 .cuarta{
-    padding-left: 2e;
+    padding-left: 2em;
 }
 
 .tituloytexto{
@@ -261,8 +277,9 @@ button:hover{
 
 .quinta{
     display: flex;
-    margin-top: 3em;
+    margin-top: 6em;
     margin-left: 3em;
+    height: auto;
 }
 
 .lista{
@@ -270,7 +287,7 @@ button:hover{
 }
 
 .quintaImg{
-    height: 75%;
+    height: 90%;
     width: 90%;
     border-radius: 2em;
     margin-left: 5em;
@@ -288,6 +305,9 @@ button:hover{
     margin-bottom: 1em;
 }
 
+.checks{
+    margin-left: 2em;
+}
 .check{
     width: 1em;
     height: 1em;
@@ -302,4 +322,135 @@ button:hover{
 .tyt{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 4em;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.small{
+    color: rgb(100, 97, 97);
+    font-size: small;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: large;
+}
+
+/* Septima seccion */
+
+.septima{
+    display:flex;
+    align-items: center;
+    margin-left: 5em;
+    margin-top: 3em;
+}
+
+.masgrande{
+    height: 75vh;
+    width: 70vh;
+    border-radius: 2em;
+    margin-right: 2em;
+}
+
+.dificil{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+}
+
+.trescosas{
+    margin-bottom: 2em;
+}
+
+.septimaImagenes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.Iuno{
+    width: 30%;
+    height: 100%;
+    border-radius: 1em;
+}
+
+.segundoBoton{
+    background-color: rgba(13, 13, 157, 0.851);
+    color: white;
+    border-radius: 1em;
+    padding: 1em 2em;
+    border: none;
+    font-size: medium;
+}
+
+.larges{
+    font-size: 3.5em;
+}
+
+/* Footer */
+
+.elPie{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6em;
+    margin-left: 2em;
+}
+
+.logoDos{
+    display: flex;
+    flex-direction: column;
+}
+
+.logoFooter{
+    display: flex;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.ubicacion{
+    display: flex;
+}
+
+.bajo{
+    margin-top: 1em;
+}
+
+.phone{
+    display: flex;
+}
+
+.telefono{
+    margin-top: 0.6em;
+}
+
+.cambio{
+    color: rgb(46, 45, 45);
+}
+
+.mail{
+    display: flex;
+}
+
+.noticias{
+    display: flex;
+    flex-direction: column;
+}
+
+.bajar{
+    margin-top: 2em;
+}
+
+.inputDos{
+    border-radius: 2em;
+    padding: 1em 3em;
+    border: 0.2em solid  gray;
 }
