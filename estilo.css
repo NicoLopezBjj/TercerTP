@@ -319,6 +319,7 @@ button:hover{
 
 .checks{
     margin-left: 2em;
+    pointer-events: none;
 }
 .check{
     width: 1em;
@@ -465,4 +466,8 @@ button:hover{
     border-radius: 2em;
     padding: 1em 3em;
     border: 0.2em solid  gray;
+}
+
+svg:hover{
+    transform: scale(1.2);
 }
