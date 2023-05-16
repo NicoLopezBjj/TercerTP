@@ -238,7 +238,7 @@ button:hover{
 /* Cuarta seccion */
 
 .cuarta{
-    padding-left: 2em;
+    padding-left: 3em;
 }
 
 .tituloytexto{
@@ -257,8 +257,20 @@ button:hover{
 .enumerado{
     display: flex;
     justify-content: space-around;
-    padding-bottom: 5em;
+    padding-bottom: 3em;
+    margin-top: 3em;
 }
+
+.numeros{
+    background-color: rgb(54, 50, 50);
+    color: white;
+    font-size: x-large;
+    border-radius: 3em;
+    padding: 0.8em 1em;
+    border: none;
+    pointer-events: none;
+}
+ 
 
 .textoyboton{
     display: flex;
